@@ -1,0 +1,45 @@
+body {
+  font-family: 'Lato', sans-serif;
+	font-family: 'Merriweather', serif;
+	background: white;
+}
+
+li {
+	list-style: none;
+}
+
+.top-menu {
+	display: flex;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+	margin-right: 30px;
+}
+
+.logo-text {
+	margin-right: 185px;
+	width: 190px;
+	height: 43px;
+	left: 475px;
+	top: 33px;
+	color: #005FA3;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.contacs-info {
+	display: flex;
+}
+
+.main-menu ul {
+	display: flex;
+}
