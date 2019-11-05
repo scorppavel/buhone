@@ -4,7 +4,49 @@ body {
 	background: white;
 }
 
-.header {
+.logo-image {
+  display: flex;
+  align-items: center;
+  padding: 33px 0 0 405px;
+}
+
+.logo-image img {
+  height: 40px;
+  width: 40px;
+}
+
+.name-company {
+  margin-left: 30px;
+  margin-right: 221px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #005FA3;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.company-info img {
+  width: 10px;
+  height: 17px;
+}
+
+.phone {
+  margin-left: 15px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000;
+}
+
+/* .header {
   display: flex;
   width: 1116px;
   height: 57px;
@@ -30,4 +72,4 @@ body {
   font-weight: 900;
   font-size: 30px;
   line-height: 0;
-}
+} */
