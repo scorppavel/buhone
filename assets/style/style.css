@@ -15,6 +15,12 @@ a {
   color: #222222;
 }
 
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+}
+
 .logo-image {
   display: flex;
   align-items: center;
@@ -93,4 +99,55 @@ a {
   line-height: 17px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.main-image {
+  background-image: url(/assets/img/first-screen.png) no-repeat;
+  }
+
+.services {
+  margin-top: -27px;
+  background: #EBEBEB;
+}
+
+.our-services .description {
+  color: #BDBDBD;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 23px -10px 40px -90px;
+}
+
+.description {
+  padding-top: 140px;
+}
+
+.our-services .special  {
+  color: #333333;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  margin:0 0 102px -90px;
+}
+
+.buhservices_one {
+  display: flex;
+  justify-content: center;
+}
+
+.buhservices_one img {
+  margin:0 30px 30px 0;
+}
+
+.buhservices_two {
+  display: flex;
+  justify-content: center;
+}
+
+.buhservices_two img {
+  margin:0 30px 140px 0;
 }
