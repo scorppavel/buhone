@@ -102,7 +102,9 @@ a {
 }
 
 .main-image {
-  background-image: url(/assets/img/first-screen.png) no-repeat;
+  background: url('/assets/img/first-screen.png') no-repeat;
+  width: 1920px;
+  height: 960px;
   }
 
 .services {
