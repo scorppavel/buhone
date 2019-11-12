@@ -1,7 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
-	font-family: 'Merriweather', serif;
-  background: white;
+  background: #fff;
   margin: 0;
   padding: 0;
 }
@@ -10,9 +8,20 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: #222222;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+  width: 1116px;
 }
 
 .wrapper {
@@ -24,7 +33,6 @@ a {
 .logo-image {
   display: flex;
   align-items: center;
-  padding: 33px 0 0 405px;
 }
 
 .logo-image img {
@@ -35,17 +43,19 @@ a {
 .name-company {
   margin-left: 30px;
   margin-right: 221px;
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
+  font: normal 900 36px Merriweather;
   color: #005FA3;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
 }
 
 .company-info {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .company-info img {
@@ -53,12 +63,8 @@ a {
 }
 
 .company-info p {
-  margin-right: 40px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 17px;
+  margin-right: 30px;
+  font: normal normal 13px/1.7 Lato;
   color: #000;
 }
 
@@ -82,74 +88,80 @@ a {
   height: 17px;
 }
 
-.main-menu {
-  margin: -60px 0 31px 800px ;
-}
-
 .main-menu ul {
   display: flex;
+
 }
 .main-menu li {
   text-transform: uppercase;
-  margin-right: 68px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  margin-right: 60px;
+  font: normal bold 14px/1.7 Lato;
+  margin-bottom: 30px;
 }
 
 .main-image {
   background: url('/assets/img/first-screen.png') no-repeat;
+<<<<<<< HEAD
   width: 1920px;
   height: 960px;
+=======
+  width: auto;
+  height: 670px;
+>>>>>>> c5d228b72ae3b53fae4b0205fcd3b81aec9ce5ad
   }
 
 .services {
-  margin-top: -27px;
+  margin-top: -25px;
   background: #EBEBEB;
 }
 
-.our-services .description {
-  color: #BDBDBD;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 33px;
-  margin: 23px -10px 40px -90px;
-}
-
 .description {
-  padding-top: 140px;
+  color: #BDBDBD;
+  font: 24px Lato;
+  padding: 140px 0 40px 0;
 }
 
-.our-services .special  {
-  color: #333333;
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 69px;
-  margin:0 0 102px -90px;
-}
+.special {
+  font: bold 48px Merriweather;
+  padding-bottom: 102px;
+} 
 
 .buhservices_one {
   display: flex;
-  justify-content: center;
+}
+
+.buhservices_two {
+  display: flex;
 }
 
 .buhservices_one img {
   margin:0 30px 30px 0;
 }
 
-.buhservices_two {
-  display: flex;
-  justify-content: center;
+.buhservices_two img {
+  margin-right: 30px;
+  padding-bottom: 140px;
 }
 
-.buhservices_two img {
-  margin:0 30px 140px 0;
+.about-company {
+  padding-top: 140px;
 }
+
+.about-us_text {
+  color: #BDBDBD;
+  font: 24px Lato;
+  padding-bottom: 40px;
+}
+
+.about-us_name_company {
+  font: bold 48px Merriweather;
+  padding-bottom: 5px;
+}
+
+.about-us_name_name {
+  padding-bottom: 60px;
+  font: bold 48px Merriweather;
+  color: #005FA3;
+}
+
+
