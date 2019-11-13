@@ -101,13 +101,8 @@ a {
 
 .main-image {
   background: url('/assets/img/first-screen.png') no-repeat;
-<<<<<<< HEAD
-  width: 1920px;
-  height: 960px;
-=======
   width: auto;
   height: 670px;
->>>>>>> c5d228b72ae3b53fae4b0205fcd3b81aec9ce5ad
   }
 
 .services {
