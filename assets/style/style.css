@@ -137,8 +137,13 @@ a {
   margin-right: 30px;
   padding-bottom: 140px;
 }
-
+ 
 .about-company {
+  padding-top: 140px;
+} 
+
+.about-us {
+  display: flex;
   padding-top: 140px;
 }
 
@@ -146,17 +151,37 @@ a {
   color: #BDBDBD;
   font: 24px Lato;
   padding-bottom: 40px;
+
 }
 
 .about-us_name_company {
+  color: #000;
   font: bold 48px Merriweather;
-  padding-bottom: 5px;
 }
 
 .about-us_name_name {
-  padding-bottom: 60px;
-  font: bold 48px Merriweather;
   color: #005FA3;
+  font: bold 48px Merriweather;
+  margin: -45px 0 60px 0;
 }
 
+.text-about_us {
+  color: #000;
+  font: 24px Lato;
+  text-align: left;
+  width: 515px;
+}
 
+.image-case {
+  display: flex;
+  margin-left: 80px;
+  padding: 185px 0 140px 0;
+}
+
+.image-case_one img {
+  margin: 0 30px 30px 0;
+}
+
+.image-case_two img {
+  margin: 0 30px 30px 0;
+}
