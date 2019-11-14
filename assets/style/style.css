@@ -99,6 +99,6 @@ a {
 .main-menu li {
   text-transform: uppercase;
   margin-right: 60px;
-  font: normal bold 14px/1.7 lato;
+  font: bold 14px sans-serif;
   margin-bottom: 30px;
 }
