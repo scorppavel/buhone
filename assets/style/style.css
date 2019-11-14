@@ -2,6 +2,11 @@ body {
   background: #fff;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 13px;
 }
 
 li {
@@ -64,7 +69,6 @@ a {
 
 .company-info p {
   margin-right: 30px;
-  font: normal normal 13px/1.7 Lato;
   color: #000;
 }
 
@@ -95,6 +99,6 @@ a {
 .main-menu li {
   text-transform: uppercase;
   margin-right: 60px;
-  font: normal bold 14px/1.7 Lato;
+  font: normal bold 14px/1.7 lato;
   margin-bottom: 30px;
 }
