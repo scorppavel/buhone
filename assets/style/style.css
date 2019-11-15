@@ -142,3 +142,88 @@ a {
   margin-right: 30px;
   padding-bottom: 140px;
 }
+
+.about-company {
+  padding-top: 140px;
+} 
+
+.about-us {
+  display: flex;
+  padding-top: 140px;
+}
+
+.about-us_text {
+  color: #BDBDBD;
+  font-size: 24px;
+ }
+
+.about-us_name_company {
+  color: #000;
+  font: bold 48px Merriweather;
+}
+
+.about-us_name_name {
+  color: #005FA3;
+  font: bold 48px Merriweather;
+  margin: -45px 0 60px 0;
+}
+
+.text-about_us {
+  color: #000;
+  font-size: 24px;
+  text-align: left;
+  width: 515px;
+}
+
+.image-case {
+  display: flex;
+  margin-left: 80px;
+  padding: 67px 0 140px 0;
+}
+
+.image-case_one img {
+  margin: 0 30px 30px 0;
+}
+
+.image-case_two img {
+  margin: 0 30px 30px 0;
+}
+
+.our-clients {
+  background: url('/assets/img/our-clients.png') no-repeat;
+  width: auto;
+  height: 630px;
+}
+
+.our-reviews .about-us_text {
+  padding-top: 140px;
+}
+
+.our-reviews .about-us_name_company {
+  margin-bottom: 80px;
+}
+
+.image-reviews {
+  background: url('/assets/img/reviwers.png');
+  width: 1110px;
+  height: 430px;
+  margin-bottom: 140px;
+}
+
+.our-contacts {
+  background: url('/assets/img/contact.png')no-repeat;
+  width: auto;
+  height: 623px;
+}
+
+footer {
+  padding-top: 110px;
+}
+
+.tetx-footer {
+  display: flex;
+}
+
+.footer-text_right {
+  padding-left: 550px;
+}
