@@ -2,6 +2,11 @@ body {
   background: #fff;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 13px;
 }
 
 li {
@@ -64,7 +69,6 @@ a {
 
 .company-info p {
   margin-right: 30px;
-  font: normal normal 13px/1.7 Lato;
   color: #000;
 }
 
@@ -95,7 +99,9 @@ a {
 .main-menu li {
   text-transform: uppercase;
   margin-right: 60px;
-  font: normal bold 14px/1.7 Lato;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.7;
   margin-bottom: 30px;
 }
 
@@ -112,7 +118,7 @@ a {
 
 .description {
   color: #BDBDBD;
-  font: 24px Lato;
+  font-size: 24px;
   padding: 140px 0 40px 0;
 }
 
@@ -149,10 +155,8 @@ a {
 
 .about-us_text {
   color: #BDBDBD;
-  font: 24px Lato;
-  padding-bottom: 40px;
-
-}
+  font-size: 24px;
+ }
 
 .about-us_name_company {
   color: #000;
@@ -167,7 +171,7 @@ a {
 
 .text-about_us {
   color: #000;
-  font: 24px Lato;
+  font-size: 24px;
   text-align: left;
   width: 515px;
 }
@@ -175,7 +179,7 @@ a {
 .image-case {
   display: flex;
   margin-left: 80px;
-  padding: 185px 0 140px 0;
+  padding: 67px 0 140px 0;
 }
 
 .image-case_one img {
@@ -185,3 +189,47 @@ a {
 .image-case_two img {
   margin: 0 30px 30px 0;
 }
+
+.our-clients {
+  background: url('/assets/img/our-clients.png') no-repeat;
+  width: auto;
+  height: 630px;
+}
+
+.our-reviews .about-us_text {
+  padding-top: 140px;
+}
+
+.our-reviews .about-us_name_company {
+  margin-bottom: 80px;
+}
+
+.image-reviews {
+  background: url('/assets/img/reviwers.png');
+  width: 1110px;
+  height: 430px;
+  margin-bottom: 140px;
+}
+
+.our-contacts {
+  background: url('/assets/img/contact.png')no-repeat;
+  width: auto;
+  height: 623px;
+}
+
+footer {
+  padding-top: 110px;
+}
+
+.tetx-footer {
+  display: flex;
+}
+
+.footer-text_right {
+  padding-left: 550px;
+}
+
+
+
+
+
